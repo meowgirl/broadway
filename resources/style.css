@@ -40,9 +40,14 @@ li a:visited {
   color: beige;
 }
 
+h1,
+h2,
+h3, {
+  font-weight:bold;
+}
+
 h1 {
-  font-size: 70px;
-  font-weight: bold;
+  font-size: 70px;;
   color: white;
   text-transform: uppercase;
   letter-spacing: 20px;
@@ -50,12 +55,10 @@ h1 {
 
 h2 {
   font-size:32px;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 23px;
-  font-weight: bold;
 
 }
 
@@ -85,14 +88,14 @@ span {
   padding: 10px;
 }
 
-.submain {
+.supporting {
   padding-bottom: 25px;
 }
-.submain p {
+.supporting p {
   display: inline;
 }
 
-.submain a:link {
+.supporting-item a:link {
   color: purple;
   text-transform: uppercase;
 }
