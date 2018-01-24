@@ -7,6 +7,37 @@ header {
   background-image: url("../resources/images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-position: right top;
+  padding: 10px;
+
+}
+
+.nav-menu {
+  padding: 20px;
+}
+
+.nav-menu ul {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: bold;
+  display: inline;
+}
+
+.nav-menu li {
+  display: inline;
+}
+
+li a:link {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: gray;
+}
+
+li a:visited {
+  color: beige;
 }
 
 h1 {
@@ -25,52 +56,63 @@ h2 {
 h3 {
   font-size: 23px;
   font-weight: bold;
+
 }
 
-.highlight h3 {
-  color: white;
-  font-size: 23px;
-  font-weight: bold;
-}
-p{
+p {
   font-size: 14px;
 }
 
-.nav ol {
-  font-size: 18px;
+span {
+  font-weight: bold;
+}
+
+
+.highlight h3 {
   color: white;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 18px;
 }
 
-li {
-  display: inline;
-}
-
-
-a:link {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  color: gray;
-}
-
-a:visited {
-  color: beige;
-}
 
 .highlight {
   background-image: url("../resources/images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 10px;
+}
+
+.submain {
+  padding-bottom: 25px;
+}
+.submain p {
+  display: inline;
+}
+
+.submain a:link {
+  color: purple;
+  text-transform: uppercase;
 }
 
 .footer {
   font-size: 11px;
   color: white;
   background-color: gray;
+  text-align: left;
+  padding: 20px;
+}
+
+.footer p {
+  display: inline;
+}
+
+.footer ul {
+  display: inline;
+}
+
+.footer li {
+  display: inline;
 }
